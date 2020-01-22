@@ -1,0 +1,45 @@
+https://codepen.io/zmeyer4287/pen/gObPPPd
+
+1. What is Semantic HTML?  It is the use if HTML markup to reinforce the semantics or meaning of the information in webpages and web applications rather than merely to define its presentation or look.
+    2. What is HTML used for? To create electronic documents (called pages) that are displayed on the World Wide Web.
+    3. What is an attribute and where do we put it? Attributes provide additional information about HTML elements. Attributes are always specified in the start log.
+    4. What is the h1 tag used for? How many times should I use it on a page? The h1 tag is the first header tag visible on a page and is used for the title of a page or post. H1 tags should be used once per page but as long as they are not being used to the point of spamming it could be used more than once.
+    5. Name two tags that have required attributes? The two tags that require attributes are the <a> and <img> tag.
+    6. What do we put in the head of our HTML document? The head contains information about the current document, such as its title, keywords that may be use to search engines, and other data that is not considered document content.
+    7. What is an id? An id attribute specifies a unique id for an html element. The id value can be used by CSS and JavaScript to preform certain tasks for the element with the specific id value.
+    8. What elements can I add an id to? The id attribute can be used on any HTML element.
+    9. How many times can I use the same id on a page? No elements IDs should be unique within the entire document.
+    10. What is a class? It is an attribute used to define equal styles for elements with the same class name.
+    11. What elements can I add a class to? It can be added to inline elements.
+    12. How many times can I use the same class on a page? Yes it is possible, but you can only declare the class attribute once per html element.
+    13. How do I get my link to open in a new tab? Just add a target=”_blank” attribute to your links (anchor tags).
+    14. What is the alt attribute used for?  This attribute specifies an alternate text for an img, if the img cannot be displayed.
+    15. How do I reference an id? By using the “#”
+    16. What is the difference between a section and a div? The section tag defines sections in a document, suchs as chapters, headers, footers, or any other sections of the document. The div tag defines a division or a section in an html document.
+    17. What is CSS used for? CSS is the language for describing the presentation of web pages, including colors, layouts, and fonts.
+    18. How to we select an element? Example - every h2 on the page? By using the element selectors.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one? A class can be used to identify more than one element an a id can be used to identify one element. A class is used when you want to consistently style multiple elements throughout the page/site. An id is used when you have a single element on the page that will take the style.
+    20. How do we select classes in CSS? To select classes in CSS you will write a (.) character, followed by the name of the class.
+    21. How do we select a p element with a single class of “human”?  “p.human {}”
+    22. What is a parent child selector? When would this be useful? This selector selects all elements that are a direct child of the specified element. This would be useful if you were wanting to select all elements that are directly related to the specified element and save time and less lines of code to deal with.
+    23. How do you select all links within a div with the class of sidebar? Use descendant selectors: #sidebar a:.
+    24. What is a pseudo selector? This is a selector that selects elements that are in a specific state, they are the first element of their type, or they are being hovered over by the mouse pointer.
+    25. What do we use the change the spacing between lines? You would do this by using the line height property.
+    26. What do we use to change the spacing between letters? You would do this by using the letter-spacing property.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? You would use the text-transform property and make the choice of capitals/lowercase/capitalize.
+    28. How do I add a 1px border around my div that is dotted and black? By using border: 1px dotted black. the outline properties is the type of properties in css to use.
+    29. How do I select everything on the page? By using the selector you want to style the element with so for this it would be (*)
+    30. How do I write a comment in CSS? You would write a comment by starting with /* and ending with */.
+    31. How do I find out what file I am in, when I am using the command line? By using the command ‘cd’
+    32. Using the command line - how do I see a list of files/folders in my current folder? By using the command ‘ls’
+    33. How do I remove a file via the command line? Why do I have to be careful with this? By using the command rn/ rn -rf. You need to be careful because when doing this it removes it completely and not just into the trash bin and can cause some serious damage to your computer or make it un-usable.
+    34. Why should I use version control? Because this helps track every individual change by each contributor and helping prevent concurrent work from conflicting.
+    35. How often should I commit to github? Depends on your source code system and what else you have in place, but it should be completed whenever you finish a step.
+    36. What is the command we would use to push our repo up to github? The command would be git push, this pushes changes from your local repo into your remote repo.
+    37. Walk me through Lambda's git flow. 
+1: First you will want to fork the repo.
+2: You will go and add your TL as a collaborator.
+3: Then make sure it is your repo and clone it.
+4: create a branch(the one you will be working on)
+5: Push your new branch up to GitHub and make all future pushes to that branch.
+6: Add your TL as a reviewer to the Pull request.
